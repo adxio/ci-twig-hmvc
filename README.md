@@ -21,3 +21,20 @@ root/
             └── views
                 └── View.twig
 ```
+
+## Installation
+
+### With Composer
+
+~~~
+$ cd /to/path/root/codeigniter
+$ composer require nakamichikun/ci-twig-hmvc
+~~~
+
+Install `Twig.php` using command
+
+~~~
+$ php vendor/nakamichikun/ci-twig-hmvc
+~~~
+
+* You must run at CodeIgniter root folder
