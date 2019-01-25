@@ -16,7 +16,7 @@ class Installer
 	public static function install()
 	{
 		self::recursiveCopy('vendor/codeigniter/framework', '.');
-		self::copy('Twig.php', 'application/libraries/Twig.php');
+		self::copy('vendor/nakamichikun/ci-twig-hmvc/Twig.php', 'application/libraries/Twig.php');
 		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/module', 'application');
 	}
 
