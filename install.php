@@ -17,7 +17,11 @@ class Installer
 	{
 		self::recursiveCopy('vendor/codeigniter/framework', '.');
 		self::copy('vendor/nakamichikun/ci-twig-hmvc/Twig.php', 'application/libraries/Twig.php');
+		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/config', 'application/config');
 		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/module', 'application');
+		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/hmvc/MX', 'application/third_party/MX');
+		self::copy('vendor/nakamichikun/ci-twig-hmvc/hmvc/MY_Router.php', 'application/core');
+		self::copy('vendor/nakamichikun/ci-twig-hmvc/hmvc/MY_Loader.php', 'application/core');
 	}
 
 	private static function copy($src, $dst)
