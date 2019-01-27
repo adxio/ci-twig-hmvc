@@ -31,12 +31,18 @@ $ cd /to/path/root/codeigniter
 $ composer require nakamichikun/ci-twig-hmvc
 ~~~
 
-Following this command
+For installation following this command
 
 ~~~
 $ php vendor/nakamichikun/ci-twig-hmvc/install.php
 ~~~
 
+And then you must change owner of folder cache
+
+~~~
+$ chmod www-data:www-data application/cache
+~~~
+
 * You must run at CodeIgniter root folder
 
-### Happy coding
+#### Done and Happy coding
