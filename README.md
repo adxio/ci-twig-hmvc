@@ -42,7 +42,7 @@ $ php vendor/nakamichikun/ci-twig-hmvc/install.php
 And then you must change owner of folder cache
 
 ~~~
-$ chmod www-data:www-data application/cache
+$ sudo chown www-data:www-data application/cache
 ~~~
 
 * You must run at CodeIgniter root folder
