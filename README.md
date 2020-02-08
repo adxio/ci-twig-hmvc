@@ -1,11 +1,10 @@
-# Codeigniter Twig and HMVC
+# Twig and HMVC for Codeigniter
 [![Latest Stable Version](https://poser.pugx.org/adxio/ci-twig-hmvc/v/stable)](https://packagist.org/packages/adxio/ci-twig-hmvc)
 [![Total Downloads](https://poser.pugx.org/adxio/ci-twig-hmvc/downloads)](https://packagist.org/packages/adxio/ci-twig-hmvc)
 [![Latest Unstable Version](https://poser.pugx.org/adxio/ci-twig-hmvc/v/unstable)](https://packagist.org/packages/adxio/ci-twig-hmvc)
 [![License](https://poser.pugx.org/adxio/ci-twig-hmvc/license)](https://packagist.org/packages/adxio/ci-twig-hmvc)
 
-
-CodeIgniter Twig and HMVC Integration for Code Igniter 3.1.10
+Twig and HMVC Integration for Code Igniter 3.1.10
 
 ## Server Requirements
 PHP version 7 or newer.
@@ -31,7 +30,7 @@ root/
 
 ~~~
 $ cd /to/path/root/codeigniter
-$ composer require adxio/ci-twig-hmvc
+$ composer require adxio/twig-hmvc
 ~~~
 
 For installation following this command
