@@ -36,7 +36,7 @@ $ composer require adxio/twig-hmvc
 For installation following this command
 
 ~~~
-$ php vendor/adxio/ci-twig-hmvc/install.php
+$ php vendor/adxio/twig-hmvc/install.php
 ~~~
 
 And then you must change owner of folder cache
