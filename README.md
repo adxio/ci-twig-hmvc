@@ -1,8 +1,8 @@
 # Twig and HMVC for Codeigniter
-[![Latest Stable Version](https://poser.pugx.org/adxio/ci-twig-hmvc/v/stable)](https://packagist.org/packages/adxio/ci-twig-hmvc)
-[![Total Downloads](https://poser.pugx.org/adxio/ci-twig-hmvc/downloads)](https://packagist.org/packages/adxio/ci-twig-hmvc)
-[![Latest Unstable Version](https://poser.pugx.org/adxio/ci-twig-hmvc/v/unstable)](https://packagist.org/packages/adxio/ci-twig-hmvc)
-[![License](https://poser.pugx.org/adxio/ci-twig-hmvc/license)](https://packagist.org/packages/adxio/ci-twig-hmvc)
+[![Latest Stable Version](https://poser.pugx.org/adxio/twig-hmvc/v/stable)](https://packagist.org/packages/adxio/twig-hmvc)
+[![Total Downloads](https://poser.pugx.org/adxio/twig-hmvc/downloads)](https://packagist.org/packages/adxio/twig-hmvc)
+[![Latest Unstable Version](https://poser.pugx.org/adxio/twig-hmvc/v/unstable)](https://packagist.org/packages/adxio/twig-hmvc)
+[![License](https://poser.pugx.org/adxio/twig-hmvc/license)](https://packagist.org/packages/adxio/twig-hmvc)
 
 Twig and HMVC Integration for Code Igniter 3.1.10
 
