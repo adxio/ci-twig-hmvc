@@ -1,8 +1,7 @@
 {
-	"name": "adxio/ci-twig-hmvc",
-	"description": "CodeIgniter Twig and HMVC Integration for Code Igniter 3.x",
+	"name": "adxio/twig-hmvc",
+	"description": "Twig and HMVC Integration for Code Igniter 3.x",
 	"keywords": [
-		"codeigniter",
 		"twig",
 		"hmvc"
 	],
@@ -10,7 +9,7 @@
 	"authors": [
 		{
 			"name": "Andi Kurniawan",
-			"homepage": "https://github.com/adxio/ci-twig-hmvc"
+			"homepage": "https://github.com/adxio/twig-hmvc"
 		}
 	],
 	"require": {

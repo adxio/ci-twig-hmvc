@@ -1,10 +1,10 @@
-# Codeigniter Twig and HMVC
-[![Latest Stable Version](https://poser.pugx.org/nakamichikun/ci-twig-hmvc/v/stable)](https://packagist.org/packages/nakamichikun/ci-twig-hmvc)
-[![Total Downloads](https://poser.pugx.org/nakamichikun/ci-twig-hmvc/downloads)](https://packagist.org/packages/nakamichikun/ci-twig-hmvc)
-[![Latest Unstable Version](https://poser.pugx.org/nakamichikun/ci-twig-hmvc/v/unstable)](https://packagist.org/packages/nakamichikun/ci-twig-hmvc)
-[![License](https://poser.pugx.org/nakamichikun/ci-twig-hmvc/license)](https://packagist.org/packages/nakamichikun/ci-twig-hmvc)
+# Twig and HMVC for Codeigniter
+[![Latest Stable Version](https://poser.pugx.org/adxio/ci-twig-hmvc/v/stable)](https://packagist.org/packages/adxio/ci-twig-hmvc)
+[![Total Downloads](https://poser.pugx.org/adxio/ci-twig-hmvc/downloads)](https://packagist.org/packages/adxio/ci-twig-hmvc)
+[![Latest Unstable Version](https://poser.pugx.org/adxio/ci-twig-hmvc/v/unstable)](https://packagist.org/packages/adxio/ci-twig-hmvc)
+[![License](https://poser.pugx.org/adxio/ci-twig-hmvc/license)](https://packagist.org/packages/adxio/ci-twig-hmvc)
 
-CodeIgniter Twig and HMVC Integration for Code Igniter 3.1.10
+Twig and HMVC Integration for Code Igniter 3.1.10
 
 ## Server Requirements
 PHP version 7 or newer.
@@ -30,13 +30,13 @@ root/
 
 ~~~
 $ cd /to/path/root/codeigniter
-$ composer require nakamichikun/ci-twig-hmvc
+$ composer require adxio/twig-hmvc
 ~~~
 
 For installation following this command
 
 ~~~
-$ php vendor/nakamichikun/ci-twig-hmvc/install.php
+$ php vendor/adxio/twig-hmvc/install.php
 ~~~
 
 And then you must change owner of folder cache
