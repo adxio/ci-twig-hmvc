@@ -2,10 +2,10 @@
 /**
  * Part of CodeIgniter Twig & HMVC
  *
- * @author     Andi Kurniawan <https://github.com/nakamichikun>
+ * @author     Andi Kurniawan <https://github.com/adxio>
  * @license    MIT License
  * @copyright  2019 Andi kurniawan
- * @link       https://github.com/nakamichikun/ci-twig-hmvc
+ * @link       https://github.com/adxio/ci-twig-hmvc
  */
 
 $installer = new Installer();
@@ -15,13 +15,12 @@ class Installer
 {
 	public static function install()
 	{
-		self::recursiveCopy('vendor/codeigniter/framework', '.');
-		self::copy('vendor/nakamichikun/ci-twig-hmvc/Twig.php', 'application/libraries/Twig.php');
-		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/config', 'application/config');
-		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/modules', 'application/modules');
-		self::recursiveCopy('vendor/nakamichikun/ci-twig-hmvc/hmvc/MX', 'application/third_party/MX');
-		self::copy('vendor/nakamichikun/ci-twig-hmvc/hmvc/MY_Router.php', 'application/core/MY_Router.php');
-		self::copy('vendor/nakamichikun/ci-twig-hmvc/hmvc/MY_Loader.php', 'application/core/MY_Loader.php');
+		self::copy('vendor/adxio/ci-twig-hmvc/Twig.php', 'application/libraries/Twig.php');
+		self::recursiveCopy('vendor/adxio/ci-twig-hmvc/config', 'application/config');
+		self::recursiveCopy('vendor/adxio/ci-twig-hmvc/modules', 'application/modules');
+		self::recursiveCopy('vendor/adxio/ci-twig-hmvc/hmvc/MX', 'application/third_party/MX');
+		self::copy('vendor/adxio/ci-twig-hmvc/hmvc/MY_Router.php', 'application/core/MY_Router.php');
+		self::copy('vendor/adxio/ci-twig-hmvc/hmvc/MY_Loader.php', 'application/core/MY_Loader.php');
 		echo 'Installation Done'.PHP_EOL;
 	}
 
