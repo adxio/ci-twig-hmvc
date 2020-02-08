@@ -1,8 +1,7 @@
 {
 	"name": "adxio/ci-twig-hmvc",
-	"description": "CodeIgniter Twig and HMVC Integration for Code Igniter 3.x",
+	"description": "Twig and HMVC Integration for Code Igniter 3.x",
 	"keywords": [
-		"codeigniter",
 		"twig",
 		"hmvc"
 	],
